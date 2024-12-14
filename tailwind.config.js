@@ -13,7 +13,15 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                'goth': ['goth'],
             },
+            colors: {
+                'gradiente-uno':'#180203',
+                'gradiente-dos':'##350505',
+                'gris-fondo': '#495153',
+                'beige': '#BEA084',
+                'rojo-ith': '#930000',
+            }
         },
     },
 

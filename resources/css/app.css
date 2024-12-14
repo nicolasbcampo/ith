@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'goth';
+    src: url('/public/fonts/GothicPixels.ttf')format('truetype');
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
