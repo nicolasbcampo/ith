@@ -13,6 +13,10 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
+        {{-- Unity --}}
+        <link rel="shortcut icon" href="TemplateData/favicon.ico">
+        <link rel="stylesheet" href="TemplateData/style.css">
+
         <!-- Styles -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
@@ -39,7 +43,7 @@
                 @yield('content')
             </main>
 
-            <footer class="py-16 text-center text-sm text-black dark:text-white/70 bottom-0  bg-beige ">
+            <footer class="py-16 text-center text-sm text-black dark:text-white/70 bottom-0  bg-beige block">
                 Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
             </footer>
 
