@@ -1,6 +1,10 @@
 {
+  "public/fonts/GothicPixels.ttf": {
+    "file": "assets/GothicPixels-1ea4aNg1.ttf",
+    "src": "public/fonts/GothicPixels.ttf"
+  },
   "resources/css/app.css": {
-    "file": "assets/app-Cz2-_Ept.css",
+    "file": "assets/app-h5qidD00.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
